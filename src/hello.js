@@ -1,1 +1,4 @@
-Consolelog(Hello, planet)
+console.log("Hello, world!");
+
+
+
