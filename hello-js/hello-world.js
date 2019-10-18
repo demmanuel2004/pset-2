@@ -1,12 +1,5 @@
 console.log("Hello, world!");
 
-let a = 1;
-let b = 2;
-let c = a + b;
+let name = prompt("What is your name?");
 
-
-let x = 3;
-let y = 9.334;
-let a = x * y;
-
-console.log(a);
+"Hello, " + name + "!"
