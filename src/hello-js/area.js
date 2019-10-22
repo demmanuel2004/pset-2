@@ -1,8 +1,12 @@
 const readlineSync = require("readline-sync");
 
-const IN_TO_MM
+const IN_TO_MM = 25.4;
 
-const lengthInInches = (Number readlineSync.question =("Width: "));
-const widthInInches; = (Number readlinesync.question =("Length :"));
+let lengthInInches = Number(readlineSync.question =("\nWidth: "));
+let widthInInches; = Number(readlinesync.question =("\nLength: "));
 
-console.log("A(n)" + lengthInInches + " by" + widthInInches +  "sheet of paper is "
+let lengthInMillimeters = IN_TO_MM*lengthInInches;
+let widthInMillimeters = IN_TO_MM*widthInMillimeter;
+let areaInMillimeters = widthInMillimeter*lengthInMillimeters;
+
+console.log("\nA(n)" + lengthInInches + " -by-" + widthInInches +  "inch sheet of paper has an area of about "
