@@ -9,4 +9,4 @@ let lengthInMillimeters = IN_TO_MM*lengthInInches;
 let widthInMillimeters = IN_TO_MM*widthInMillimeter;
 let areaInMillimeters = widthInMillimeter*lengthInMillimeters;
 
-console.log("\nA(n)" + lengthInInches + " -by-" + widthInInches +  "inch sheet of paper has an area of about "
+console.log("\nA(n)" + lengthInInches + " -by-" + widthInInches +  "inch sheet of paper has an area of about " + areaInMillimeters + "square milimeters");
