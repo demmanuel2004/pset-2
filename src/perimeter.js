@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 const IN_TO_MM = 25.4;
 
-let widthInInches = Number(readlineSync.question("Width: "));
+let widthInInches = Number(readlineSync.question("\nWidth: "));
 let lengthInInches = Number(readlineSync.question("Length: "));
 
 let width_mm = widthInInches * IN_TO_MM;
