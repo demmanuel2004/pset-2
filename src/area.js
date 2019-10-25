@@ -8,6 +8,7 @@ let lengthInInches = Number(readlineSync.question("Length: "));
 let width_mm = widthInInches * IN_TO_MM;
 let length_mm = lengthInInches * IN_TO_MM;
 let area = width_mm * length_mm;
+area = area.toLocaleString("en", {maximumFractionDigits: 2, minimumFractionDigits: 2});
 
 widthInInches = String(widthInInches);
 lengthInInches = String(lengthInInches);

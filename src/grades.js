@@ -19,5 +19,6 @@ let homework_grade = ((grade1+grade2+grade3)/3 * 0.15);
 let quiz_grade = ((grade4+grade5+grade6)/3 * 0.35);
 let test_grade = ((grade7+grade8+grade9)/3* 0.50);
 let average_grade = homework_grade+quiz_grade+test_grade;
+average_grade = average_grade.toLocaleString("en", {maximumFractionDigits: 2, minimumFractionDigits: 2});
 
 console.log("\nYour marking period grade is " + average_grade +  "" );

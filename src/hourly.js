@@ -12,7 +12,7 @@ const sunday = Number(readlineSync.question("Sunday: "));
 
 
 let total = (monday*hourly_wage)+(tuesday*hourly_wage)+(wednesday*hourly_wage)+(thursday*hourly_wage)+(friday*hourly_wage)+(saturday*hourly_wage)+(sunday*hourly_wage)
-
+total = total.toLocaleString("en", {maximumFractionDigits: 2, minimumFractionDigits: 2});
 
 
 console.log("\nYou'll make " + total + " this week." );

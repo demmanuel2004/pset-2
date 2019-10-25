@@ -9,6 +9,8 @@ let width_cm = width_in * IN_TO_CM;
 let length_cm = length_in * IN_TO_CM;
 let perimeter = (2*width_in + 2*length_in)*2.54;
 
+perimeter = perimeter.toLocaleString("en", {maximumFractionDigits: 2, minimumFractionDigits: 2});
+
 width_in = String(width_in);
 length_in= String(length_in);
 
