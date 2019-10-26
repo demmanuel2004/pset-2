@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
 const HOURLY_WAGE = Number(readlineSync.question("\nHourly Wage: "));
-const MONDAY = Number(readlineSync.question("Monday: "));
+const MONDAY = Number(readlineSync.question("\nMonday: "));
 const TUESDAY = Number(readlineSync.question("Tuesday: "));
 const WEDNESDAY = Number(readlineSync.question("Wednesday: "));
 const THURSDAY = Number(readlineSync.question("Thursday: "));
