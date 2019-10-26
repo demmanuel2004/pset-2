@@ -1,6 +1,5 @@
 const readlineSync = require("readline-sync");
 
-
 const STUDENTS = Number(readlineSync.question("Students: "));
 const TEACHERS = Number(readlineSync.question("Teachers: "));
 const BUS_CAPACITY = Number(readlineSync.question("Bus Capacity: "));

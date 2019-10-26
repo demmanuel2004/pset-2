@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
 console.log("Enter 3 homework grades" );
-const GRADE_1 = Number(readlineSync.question("\n "));
+const GRADE_1 = Number(readlineSync.question(" "));
 const GRADE_2 = Number(readlineSync.question(" "));
 const GRADE_3 = Number(readlineSync.question(" "));
 
