@@ -1,17 +1,17 @@
 const readlineSync = require("readline-sync");
 
-const hourly_wage = Number(readlineSync.question("\nHourly Wage: "));
-const monday = Number(readlineSync.question("Monday: "));
-const tuesday = Number(readlineSync.question("Tuesday: "));
-const wednesday = Number(readlineSync.question("Wednesday: "));
-const thursday = Number(readlineSync.question("Thursday: "));
-const friday = Number(readlineSync.question("Friday: "));
-const saturday = Number(readlineSync.question("Saturday: "));
-const sunday = Number(readlineSync.question("Sunday: "));
+const HOURLY_WAGE = Number(readlineSync.question("\nHourly Wage: "));
+const MONDAY = Number(readlineSync.question("Monday: "));
+const TUESDAY = Number(readlineSync.question("Tuesday: "));
+const WEDNESDAY = Number(readlineSync.question("Wednesday: "));
+const THURSDAY = Number(readlineSync.question("Thursday: "));
+const FRIDAY = Number(readlineSync.question("Friday: "));
+const SATURDAY = Number(readlineSync.question("Saturday: "));
+const SUNDAY = Number(readlineSync.question("Sunday: "));
 
 
 
-let total = (monday*hourly_wage)+(tuesday*hourly_wage)+(wednesday*hourly_wage)+(thursday*hourly_wage)+(friday*hourly_wage)+(saturday*hourly_wage)+(sunday*hourly_wage)
+let total = (MONDAY*HOURLY_WAGE)+(TUESDAY*HOURLY_WAGE)+(WEDNESDAY*HOURLY_WAGE)+(THURSDAY*HOURLY_WAGE)+(FRIDAY*HOURLY_WAGE)+(SATURDAY*HOURLY_WAGE)+(SUNDAY*HOURLY_WAGE)
 total = total.toLocaleString("en", {maximumFractionDigits: 2, minimumFractionDigits: 2});
 
 

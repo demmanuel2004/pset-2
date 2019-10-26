@@ -2,17 +2,17 @@ const readlineSync = require("readline-sync");
 
 
 
-const students = Number(readlineSync.question("Students: "));
+const STUDENTS = Number(readlineSync.question("Students: "));
 
-const teachers = Number(readlineSync.question("Teachers: "));
+const TEACHERS = Number(readlineSync.question("Teachers: "));
 
-const bus_capacity = Number(readlineSync.question("Bus Capacity: "));
+const BUS_CAPACITY = Number(readlineSync.question("Bus Capacity: "));
 
 
 
-let bus_total = Math.trunc((students+teachers)/bus_capacity) + 1;
+let bus_total = Math.trunc((STUDENTS+TEACHERS)/BUS_CAPACITY) + 1;
 
-let lastBusPeople = (students + teachers) % bus_capacity;
+let lastBusPeople = (STUDENTS + TEACHERS) % BUS_CAPACITY;
 
 
 
